@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <!-- css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <!-- Icones -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/6d665a5f96.js" crossorigin="anonymous"></script>
+
+</head>
+<body class="project">
+    <div id="preloader" class="preloader"></div>
+
+    <!-- navigation -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="image/Logo.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="project.html">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contact.html">Contact Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="team.html">Team</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end navigation -->
+    <div class="filter">
+        <!-- ========= filter buttons ======== -->
+        <div class="filter-btns">
+            <div class="filter-btn active" data-target="all">All</div>
+            <div class="filter-btn" data-target="games">Competition</div>
+            <div class="filter-btn" data-target="movies">Trip</div>
+            <div class="filter-btn" data-target="tv">Event</div>
+        </div>
+        <!-- ========= filter items ======== -->
+        <ul class="filter-items">
+            <li class="filter-item Sharm" data-type="movies"><p>Sharm El Sheikh trip</p></li>
+            <li class="filter-item Playstation5" data-type="games"><p>Playstation5 competition</p></li>
+            <li class="filter-item sports" data-type="tv"><p>sports event</p></li>
+            <li class="filter-item Assiut" data-type="movies"><p>Assiut trip</p></li>
+            <li class="filter-item Tennis" data-type="games"><p>Tennis competition</p></li>
+            <li class="filter-item Chess" data-type="games"><p>Chess competition</p></li>
+            <li class="filter-item Football" data-type="games"><p>Football competition</p></li>
+            <li class="filter-item religious" data-type="tv"><p>religious event</p></li>
+            <li class="filter-item Aswan" data-type="movies"><p>Aswan trip</p></li>
+            <li class="filter-item Basket" data-type="games"><p>Basket competition</p></li>
+            <li class="filter-item Safari" data-type="movies"><p>Safari</p></li>
+            <li class="filter-item cultural" data-type="tv"><p>cultural event</p></li>
+            <li class="filter-item Alexandria" data-type="movies"><p>Alexandria trip</p></li>
+            <li class="filter-item social" data-type="tv"><p>social event</p></li>
+            <li class="filter-item Desert" data-type="movies"><p>Desert trip</p></li>
+        </ul>
+    </div>
+    <div id="preloader" class="preloader"></div>
+    <span class="up"><i class="fa-solid fa-arrow-up"></i></span>
+    <!-- navigation -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="image/Logo.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="project.html">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="cont.html">Contact Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="team.html">Team</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end navigation -->
+    <!-- JS -->
+    <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load", function(){
+            loader.style.display = "none";
+        })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
